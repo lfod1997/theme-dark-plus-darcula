@@ -9,6 +9,10 @@
     "categories": [
         "Themes"
     ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/lfod1997/theme-dark-plus-darcula.git"
+    },
     "contributes": {
         "themes": [
             {

@@ -658,6 +658,12 @@
     },
     // Language-specific: TS
     {
+      "scope": "storage.type.ts",
+      "settings": {
+        "foreground": "#AD85C0"
+      }
+    },
+    {
       "name": "Types declaration and references, TS grammar specific",
       "scope": [
         "meta.type.cast.expr",

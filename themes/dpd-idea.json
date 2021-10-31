@@ -580,7 +580,13 @@
     },
     // Language-specific: TS
     {
-      "name": "Types declaration and references, TS grammar specific",
+      "scope": "storage.type.ts",
+      "settings": {
+        "foreground": "#CC7832"
+      }
+    },
+    {
+      "name": "types declaration & references",
       "scope": [
         "meta.type.cast.expr",
         "meta.type.new.expr",

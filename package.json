@@ -2,19 +2,26 @@
     "name": "theme-dark-plus-darcula",
     "displayName": "Dark Plus Darcula Themes",
     "description": "A hybrid of the default Dark Plus and JetBrains Darcula",
-    "version": "1.0.0",
+    "version": "1.0.1",
+    "license": "MIT",
     "publisher": "oasin",
+    "preview": false,
+    "repository": "https://github.com/lfod1997/theme-dark-plus-darcula",
     "icon": "images/logo.png",
     "engines": {
-        "vscode": "*"
+        "vscode": "^1.21.0"
     },
     "categories": [
         "Themes"
     ],
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/lfod1997/theme-dark-plus-darcula.git"
-    },
+    "keywords": [
+        "Darcula",
+        "dark",
+        "theme",
+        "PyCharm",
+        "IntelliJ",
+        "JetBrains"
+	],
     "contributes": {
         "themes": [
             {

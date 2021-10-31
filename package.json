@@ -3,6 +3,7 @@
     "displayName": "Dark Plus Darcula Themes",
     "description": "A hybrid of the default Dark Plus and JetBrains Darcula",
     "version": "1.0.0",
+    "publisher": "oasin",
     "icon": "images/logo.png",
     "engines": {
         "vscode": "*"

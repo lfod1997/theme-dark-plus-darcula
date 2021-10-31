@@ -1,0 +1,26 @@
+{
+    "name": "theme-dark-plus-darcula",
+    "displayName": "Dark Plus Darcula Themes",
+    "description": "A hybrid of the default Dark Plus and JetBrains Darcula",
+    "version": "1.0.0",
+    "engines": {
+        "vscode": "*"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Dark Plus Darcula (default)",
+                "uiTheme": "vs-dark",
+                "path": "./themes/dpd-vscode.json"
+            },
+            {
+                "label": "Dark Plus Darcula (IntelliJ imitation)",
+                "uiTheme": "vs-dark",
+                "path": "./themes/dpd-idea.json"
+            }
+        ]
+    }
+}

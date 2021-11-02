@@ -387,6 +387,7 @@
         "support.type",
         "entity.name.type",
         "entity.name.namespace",
+        "entity.name.package",
         "entity.other.attribute",
         "entity.name.scope-resolution",
         "entity.name.class",

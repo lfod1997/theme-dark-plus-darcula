@@ -2,11 +2,12 @@
     "name": "theme-dark-plus-darcula",
     "displayName": "Dark Plus Darcula Themes",
     "description": "A hybrid of the default Dark Plus and JetBrains Darcula",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "license": "MIT",
     "publisher": "oasin",
     "preview": false,
     "repository": "https://github.com/lfod1997/theme-dark-plus-darcula",
+    "homepage": "https://dev.azure.com/oasin/Dark%20Plus%20Darcula%20Themes",
     "icon": "images/logo.png",
     "engines": {
         "vscode": "^1.21.0"

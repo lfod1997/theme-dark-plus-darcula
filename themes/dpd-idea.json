@@ -556,6 +556,37 @@
         "foreground": "#A9B7C6"
       }
     },
+    // Language-specific: Go
+    {
+      "scope": [
+        "entity.name.type.go",
+        "storage.type.numeric.go",
+        "storage.type.byte.go",
+        "storage.type.boolean.go",
+        "storage.type.string.go",
+        "storage.type.uintptr.go",
+        "storage.type.error.go",
+        "storage.type.rune.go"
+      ],
+      "settings": {
+        "foreground": "#CC7832"
+      }
+    },
+    {
+      "scope": "entity.name.package.go",
+      "settings": {
+        "foreground": "#AFBF7E"
+      }
+    },
+    {
+      "scope": [
+        "punctuation.other.comma.go",
+        "punctuation.terminator.go"
+      ],
+      "settings": {
+        "foreground": "#CC7832"
+      }
+    },
     // Language-specific: Java
     {
       "name": "coloring of the Java import and package identifiers",

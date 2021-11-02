@@ -578,9 +578,24 @@
         "foreground": "#E8BF6A"
       }
     },
+    // Language-specific: JS
+    {
+      "scope": "storage.type.js",
+      "settings": {
+        "foreground": "#CC7832"
+      }
+    },
     // Language-specific: TS
     {
-      "scope": "storage.type.ts",
+      "scope": [
+        "storage.type.ts",
+        "storage.type.type.ts",
+        "storage.type.class",
+        "storage.type.interface.ts",
+        "storage.type.enum.ts",
+        "storage.type.namespace.ts",
+        "storage.modifier.ts"
+      ],
       "settings": {
         "foreground": "#CC7832"
       }

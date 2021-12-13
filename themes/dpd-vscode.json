@@ -178,7 +178,6 @@
     },
     {
       "scope": [
-        "meta.preprocessor",
         "entity.name.function.preprocessor",
         "entity.name.variable.preprocessor.symbol"
       ],
@@ -391,13 +390,7 @@
         "entity.other.attribute",
         "entity.name.scope-resolution",
         "entity.name.class",
-        "storage.type.numeric.go",
-        "storage.type.byte.go",
-        "storage.type.boolean.go",
-        "storage.type.string.go",
-        "storage.type.uintptr.go",
-        "storage.type.error.go",
-        "storage.type.rune.go",
+        "storage.type",
         "storage.type.cs",
         "storage.type.generic.cs",
         "storage.type.modifier.cs",
@@ -593,6 +586,29 @@
         "foreground": "#808080"
       }
     },
+    // Language-specific: C++
+    {
+      "scope": [
+        "source.cpp storage.type.extern",
+        "source.cpp storage.type.struct",
+        "source.cpp storage.type.union",
+        "source.cpp storage.type.enum",
+        "source.cpp storage.type.template",
+        "source.cpp storage.type.asm",
+        "source.cpp storage.type.decltype"
+      ],
+      "settings": {
+        "foreground": "#6D9FC5"
+      }
+    },
+    {
+      "scope": [
+        "source.cpp entity.name.other.preprocessor.macro"
+      ],
+      "settings": {
+        "foreground": "#93A629"
+      }
+    },
     // Language-specific: Python
     {
       "scope": [
@@ -633,6 +649,22 @@
       "scope": "string.unquoted.preprocessor.message.cs",
       "settings": {
         "foreground": "#A9B7C6"
+      }
+    },
+    // Language-specific: Go
+    {
+      "scope": [
+        "source.go entity.name.type",
+        "storage.type.numeric.go",
+        "storage.type.byte.go",
+        "storage.type.boolean.go",
+        "storage.type.string.go",
+        "storage.type.uintptr.go",
+        "storage.type.error.go",
+        "storage.type.rune.go"
+      ],
+      "settings": {
+        "foreground": "#6BC7A8"
       }
     },
     // Language-specific: Java
@@ -693,6 +725,16 @@
         "foreground": "#6BC7A8"
       }
     },
+    // Language-specific: GLSL
+    {
+      "name": "types declaration & references",
+      "scope": [
+        "storage.type.glsl"
+      ],
+      "settings": {
+        "foreground": "#6D9FC5"
+      }
+    },
     // Language-specific: CSS
     {
       "name": "CSS property value",
@@ -734,6 +776,7 @@
     "newOperator": "#AD85C0",
     "stringLiteral": "#CE9178",
     "customLiteral": "#A9B7C6",
-    "numberLiteral": "#6D9FC5"
+    "numberLiteral": "#6D9FC5",
+    "macro": "#93A629"
   }
 }

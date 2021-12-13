@@ -1,5 +1,11 @@
 # Change Log
 
+## [1.0.4]
+
+December 13, 2021
+
+- Better support for Golang, C++ and GLSL
+
 ## [1.0.3]
 
 November 3, 2021

@@ -10,4 +10,4 @@ A hybrid of the default "Dark Plus" and the "Darcula" theme of JetBrains IDEs, i
 
     ![IntelliJ imitation theme screenshot](https://raw.githubusercontent.com/lfod1997/theme-dark-plus-darcula/master/images/idea-theme.png)
 
-> Feel free to [issue me](https://github.com/lfod1997/theme-dark-plus-darcula) if you've found any syntax highlighting bugs; to help me fix it faster, enclose a file that can reproduce the bug, thanks.
+> Feel free to [issue me](https://github.com/lfod1997/theme-dark-plus-darcula/issues) if you've found any syntax highlighting bugs; to help me fix it faster, enclose a file that can reproduce the bug, thanks.

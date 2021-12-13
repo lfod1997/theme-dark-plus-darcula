@@ -180,7 +180,6 @@
     },
     {
       "scope": [
-        "meta.preprocessor",
         "entity.name.function.preprocessor",
         "entity.name.variable.preprocessor.symbol"
       ],
@@ -480,6 +479,29 @@
         "foreground": "#E8BF6A"
       }
     },
+    // Language-specific: C++
+    {
+      "scope": [
+        "source.cpp storage.type.extern",
+        "source.cpp storage.type.struct",
+        "source.cpp storage.type.union",
+        "source.cpp storage.type.enum",
+        "source.cpp storage.type.template",
+        "source.cpp storage.type.asm",
+        "source.cpp storage.type.decltype"
+      ],
+      "settings": {
+        "foreground": "#8888C6"
+      }
+    },
+    {
+      "scope": [
+        "source.cpp entity.name.other.preprocessor.macro"
+      ],
+      "settings": {
+        "foreground": "#CC7832"
+      }
+    },
     // Language-specific: Python
     {
       "scope": "variable.parameter.function.language.special.python",
@@ -535,7 +557,7 @@
     },
     {
       "scope": [
-        "source.python support.type.exception",
+        ".python support.type.exception",
         "source.python meta.class.inheritance support.type.exception",
         "source.python meta.class.inheritance support.type.metaclass",
       ],
@@ -559,7 +581,7 @@
     // Language-specific: Go
     {
       "scope": [
-        "entity.name.type.go",
+        "source.go entity.name.type",
         "storage.type.numeric.go",
         "storage.type.byte.go",
         "storage.type.boolean.go",
@@ -645,6 +667,16 @@
         "foreground": "#A9B7C6"
       }
     },
+    // Language-specific: GLSL
+    {
+      "name": "types declaration & references",
+      "scope": [
+        "storage.type.glsl"
+      ],
+      "settings": {
+        "foreground": "#8888C6"
+      }
+    },
     // Language-specific: CSS
     {
       "name": "CSS property value",
@@ -693,6 +725,7 @@
     "newOperator": "#E8BF6A",
     "stringLiteral": "#719161",
     "customLiteral": "#A9B7C6",
-    "numberLiteral": "#6897BB"
+    "numberLiteral": "#6897BB",
+    "macro": "#CC7832"
   }
 }

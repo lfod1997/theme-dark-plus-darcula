@@ -725,14 +725,35 @@
         "foreground": "#6BC7A8"
       }
     },
-    // Language-specific: GLSL
+    // Language-specific: Shader Languages
     {
       "name": "types declaration & references",
       "scope": [
-        "storage.type.glsl"
+        "storage.type.glsl",
+        "storage.type.basic.hlsl",
+        "storage.type.structured.hlsl",
+        "storage.type.structure.shaderlab"
       ],
       "settings": {
         "foreground": "#6D9FC5"
+      }
+    },
+    {
+      "name": "helpers",
+      "scope": [
+        "support.type.basic.shaderlab"
+      ],
+      "settings": {
+        "foreground": "#D3C68C"
+      }
+    },
+    {
+      "name": "workaround for incorrect default ShaderLab highlighting",
+      "scope": [
+        "support.variable.declaration.shaderlab"
+      ],
+      "settings": {
+        "foreground": "#A9B7C6"
       }
     },
     // Language-specific: CSS

@@ -311,18 +311,19 @@
         "keyword.type",
         "storage.type.built-in",
         "storage.type.built-in.primitive",
+        "storage.type.basic",
         "storage.modifier",
         "storage.type.modifier",
       ],
       "settings": {
-        "foreground": "#8888C6"
+        "foreground": "#CC7832"
       }
     },
     {
       "name": "explicitly non-categorized keywords",
       "scope": "keyword.other",
       "settings": {
-        "foreground": "#8888C6"
+        "foreground": "#CC7832"
       }
     },
     {
@@ -491,7 +492,7 @@
         "source.cpp storage.type.decltype"
       ],
       "settings": {
-        "foreground": "#8888C6"
+        "foreground": "#CC7832"
       }
     },
     {
@@ -660,21 +661,32 @@
         "meta.type.new.expr",
         "support.constant.math",
         "support.constant.dom",
-        "support.constant.json",
         "entity.other.inherited-class"
       ],
       "settings": {
         "foreground": "#A9B7C6"
       }
     },
-    // Language-specific: GLSL
+    // Language-specific: Shader languages
     {
       "name": "types declaration & references",
       "scope": [
-        "storage.type.glsl"
+        "storage.type.glsl",
+        "storage.type.basic.hlsl",
+        "storage.type.structured.hlsl",
+        "storage.type.structure.shaderlab"
       ],
       "settings": {
-        "foreground": "#8888C6"
+        "foreground": "#CC7832"
+      }
+    },
+    {
+      "name": "helpers",
+      "scope": [
+        "support.type.basic.shaderlab"
+      ],
+      "settings": {
+        "foreground": "#DAAE67"
       }
     },
     // Language-specific: CSS
@@ -695,7 +707,25 @@
     },
     // Language-specific: JSON
     {
+      "name": "JSON keys",
       "scope": "support.type.property-name.json",
+      "settings": {
+        "foreground": "#9876AA"
+      }
+    },
+    {
+      "name": "JSON constants",
+      "scope": [
+        "support.constant.json"
+      ],
+      "settings": {
+        "foreground": "#A9B7C6"
+      }
+    },
+    // Language-specific: YAML
+    {
+      "name": "YAML keys",
+      "scope": "entity.name.tag.yaml",
       "settings": {
         "foreground": "#9876AA"
       }

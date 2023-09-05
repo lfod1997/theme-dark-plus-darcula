@@ -1,5 +1,13 @@
 # Change Log
 
+## [1.0.5]
+
+September 5, 2023
+
+- Better support for HLSL and ShaderLab
+- Default: Workaround for incorrect default ShaderLab variable highlighting
+- IntelliJ imitation: YAML tags are now colored the same way as JSON keys
+
 ## [1.0.4]
 
 December 13, 2021

@@ -1,5 +1,11 @@
 # Change Log
 
+## [1.1.2]
+
+November 5, 2023
+
+- IntelliJ imitation: Better support for CSS
+
 ## [1.1.1]
 
 November 5, 2023

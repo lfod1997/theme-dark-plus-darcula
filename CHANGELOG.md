@@ -1,5 +1,11 @@
 # Change Log
 
+## [1.1.0]
+
+November 4, 2023
+
+- Enhanced semantic highlighting
+
 ## [1.0.5]
 
 September 5, 2023

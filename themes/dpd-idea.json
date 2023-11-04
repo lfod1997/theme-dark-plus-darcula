@@ -333,6 +333,17 @@
         "foreground": "#A9B7C6"
       }
     },
+    // Data Structure
+    {
+      "name": "property",
+      "scope": [
+        "entity.name.variable.field",
+        "entity.name.variable.property",
+      ],
+      "settings": {
+        "foreground": "#9876AA"
+      }
+    },
     // Constants
     {
       "name": "language-level constants",
@@ -752,7 +763,10 @@
   ],
   "semanticHighlighting": true,
   "semanticTokenColors": {
-    "newOperator": "#E8BF6A",
+    "field": "#9876AA",
+    "property": "#9876AA",
+    "operatorOverloaded": "#FFC66D",
+    "newOperator": "#CC7832",
     "stringLiteral": "#719161",
     "customLiteral": "#A9B7C6",
     "numberLiteral": "#6897BB",

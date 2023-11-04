@@ -1,5 +1,14 @@
 # Change Log
 
+## [1.1.1]
+
+November 5, 2023
+
+- IntelliJ imitation: Semicolons are now colored the same way IntelliJ does
+- IntelliJ imitation: Better support for TSX
+- IntelliJ imitation: Better support for HTML and XML
+- IntelliJ imitation: Better support for YAML
+
 ## [1.1.0]
 
 November 4, 2023

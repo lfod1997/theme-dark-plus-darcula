@@ -188,12 +188,6 @@
       }
     },
     {
-      "scope": "meta.preprocessor.string",
-      "settings": {
-        "foreground": "#719161"
-      }
-    },
-    {
       "scope": "meta.preprocessor.numeric",
       "settings": {
         "foreground": "#6897BB"
@@ -355,6 +349,7 @@
         "variable.other.property",
         "entity.name.variable.field",
         "entity.name.variable.property",
+        "entity.name.variable.event", // actually only used in C#
       ],
       "settings": {
         "foreground": "#9876AA"

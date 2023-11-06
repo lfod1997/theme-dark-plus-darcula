@@ -186,12 +186,6 @@
       }
     },
     {
-      "scope": "meta.preprocessor.string",
-      "settings": {
-        "foreground": "#CE9178"
-      }
-    },
-    {
       "scope": "meta.preprocessor.numeric",
       "settings": {
         "foreground": "#6D9FC5"

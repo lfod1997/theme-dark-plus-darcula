@@ -1,5 +1,12 @@
 # Change Log
 
+## [1.1.3]
+
+November 6, 2023
+
+- Removed coloring for scope "meta.preprocessor.string" to reduce visual confusion
+- IntelliJ imitation: Support for C# event property
+
 ## [1.1.2]
 
 November 5, 2023

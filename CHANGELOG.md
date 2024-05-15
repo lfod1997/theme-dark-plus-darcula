@@ -1,5 +1,11 @@
 # Change Log
 
+## [1.1.4]
+
+May 15, 2024
+
+- Better support for [GDScript](https://docs.godotengine.org/en/stable/tutorials/scripting/gdscript/)
+
 ## [1.1.3]
 
 November 6, 2023

@@ -234,7 +234,10 @@
     // Keywords & Operators
     {
       "name": "keyword fallback",
-      "scope": "keyword",
+      "scope": [
+        "keyword",
+        "keyword.language",
+      ],
       "settings": {
         "foreground": "#AD85C0"
       }
@@ -261,7 +264,11 @@
       }
     },
     {
-      "scope": "storage.type.function", // func declare keyword in some languages
+      "scope": [
+        "storage.type.function", // func declare keyword in some languages
+        "storage.type.var", // variable declare keyword in some languages
+        "storage.type.const", // constant declare keyword in some languages
+      ],
       "settings": {
         "foreground": "#AD85C0"
       }
@@ -636,6 +643,45 @@
       ],
       "settings": {
         "foreground": "#FFB6A0",
+      }
+    },
+    // Language-specific: GDScript
+    {
+      "scope": [
+        "storage.type.is.gdscript", // the "is" keyword; weird, is it misinterpretation?
+        "variable.language.gdscript", // the "self" keyword
+      ],
+      "settings": {
+        "foreground": "#AD85C0"
+      }
+    },
+    {
+      "scope": "meta.signal.gdscript entity.name.function",
+      "settings": {
+        "foreground": "#D8CD91",
+        "fontStyle": "bold",
+      }
+    },
+    {
+      "scope": [
+        "meta.literal.nodepath.gdscript",
+        "meta.literal.nodepath.gdscript keyword.control.flow",
+        "meta.literal.nodepath.gdscript constant.character.escape",
+      ],
+      "settings": {
+        "foreground": "#9BD387",
+      }
+    },
+    {
+      "scope": "meta.literal.nodepath.gdscript constant.character.escape variable.other.enummember", // the "&" and "^" operator
+      "settings": {
+        "foreground": "#FFC66D",
+      }
+    },
+    {
+      "scope": "entity.name.function.decorator.gdscript",
+      "settings": {
+        "foreground": "#93A629",
       }
     },
     // Language-specific: C#

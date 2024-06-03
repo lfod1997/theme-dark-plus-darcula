@@ -237,6 +237,7 @@
       "scope": [
         "keyword",
         "keyword.language",
+        "keyword.other",
       ],
       "settings": {
         "foreground": "#AD85C0"
@@ -265,6 +266,8 @@
     },
     {
       "scope": [
+        "storage.modifier",
+        "storage.type.modifier",
         "storage.type.function", // func declare keyword in some languages
         "storage.type.var", // variable declare keyword in some languages
         "storage.type.const", // constant declare keyword in some languages
@@ -305,22 +308,16 @@
       }
     },
     {
-      "name": "language-level types and accessibility modifiers",
+      "name": "language-level types",
       "scope": [
         "keyword.type",
+        "storage.type.built-in",
         "storage.type.built-in.primitive",
-        "storage.modifier",
-        "storage.type.modifier",
+        "storage.type.basic",
+        "storage.type.primitive",
       ],
       "settings": {
-        "foreground": "#6D9FC5"
-      }
-    },
-    {
-      "name": "explicitly non-categorized keywords",
-      "scope": "keyword.other",
-      "settings": {
-        "foreground": "#6D9FC5"
+        "foreground": "#6BC7A8"
       }
     },
     {
@@ -363,6 +360,7 @@
       "scope": [
         "variable.other.constant",
         "variable.other.enummember",
+        "constant.other.enum",
         "support.constant",
       ],
       "settings": {
@@ -384,7 +382,6 @@
         "punctuation.definition.interpolation.begin",
         "punctuation.definition.interpolation.end",
         "punctuation.section.embedded",
-        "storage.type.string",
       ],
       "settings": {
         "foreground": "#769AA5"
@@ -715,12 +712,7 @@
     },
     // Language-specific: Java
     {
-      "name": "coloring of the Java import and package identifiers",
-      "scope": [
-        "storage.modifier.import.java",
-        "variable.language.wildcard.java",
-        "storage.modifier.package.java",
-      ],
+      "scope": "variable.language.wildcard.java",
       "settings": {
         "foreground": "#A9B7C6"
       }

@@ -313,6 +313,7 @@
         "storage.type.built-in",
         "storage.type.built-in.primitive",
         "storage.type.basic",
+        "storage.type.primitive",
         "storage.modifier",
         "storage.type.modifier",
       ],
@@ -379,6 +380,7 @@
       "scope": [
         "variable.other.constant",
         "variable.other.enummember",
+        "constant.other.enum",
         "support.constant",
       ],
       "settings": {
@@ -477,6 +479,7 @@
         "punctuation.terminator",
         "punctuation.separator.comma",
         "punctuation.separator.list.comma",
+        "punctuation.separator.delimiter",
       ],
       "settings": {
         "foreground": "#CC7832"

@@ -1,5 +1,27 @@
 # Change Log
 
+## [1.2.0]
+
+June 3, 2024
+
+- Better support for Java ([#1](https://github.com/lfod1997/theme-dark-plus-darcula/issues/1)), the following Textmate scopes are involved
+    - `storage.type.primitive`
+    - `constant.other.enum`
+
+- Default: The following Textmate scopes are now treated as types (because they are indeed types :p)
+    - `keyword.type`
+    - `storage.type.built-in`
+    - `storage.type.built-in.primitive`
+    - `storage.type.basic`
+    - `storage.type.primitive`
+
+- Default: The following Textmate scopes are now treated as keywords
+    - `storage.modifier`
+    - `storage.type.modifier`
+
+- IntelliJ imitation: The following Textmate scopes are correctly colored
+    - `punctuation.separator.delimiter`
+
 ## [1.1.4]
 
 May 15, 2024
